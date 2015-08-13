@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cities" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="140" width="441" height="43"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foto-ciudad.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xSC-Z4-b2p">
+                    <rect key="frame" x="0.0" y="382" width="480" height="98"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="foto-ciudad-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nBf-oX-nOV">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="98"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="bottom" multiplier="1/3" constant="1" id="5cJ-9S-tgC"/>
+                <constraint firstItem="xSC-Z4-b2p" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="94c-HG-OYq"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
+                <constraint firstItem="nBf-oX-nOV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TNc-cH-xlp"/>
+                <constraint firstAttribute="trailing" secondItem="xSC-Z4-b2p" secondAttribute="trailing" id="ZuT-MJ-B1T"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstItem="nBf-oX-nOV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gGp-zu-uLL"/>
+                <constraint firstAttribute="bottom" secondItem="xSC-Z4-b2p" secondAttribute="bottom" id="kZJ-qF-KaW"/>
+                <constraint firstAttribute="trailing" secondItem="nBf-oX-nOV" secondAttribute="trailing" id="pSj-tw-kXq"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="foto-ciudad-2.jpg" width="460" height="119"/>
+        <image name="foto-ciudad.jpg" width="460" height="98"/>
+    </resources>
+</document>
